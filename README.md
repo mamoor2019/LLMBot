@@ -1,0 +1,3 @@
+The NCERT Learning Assistant demonstrates a practical approach to applying generative AI to school-level education. The proposed system combines a pretrained LLM, parameter-efficient fine-tuning, and retrieval from NCERT textbooks to support interactive Science and Mathematics learning.
+
+The data pipeline transforms textbook PDFs into structured passages and educational Q&A records. Fine-tuning aims to improve the model's response style and educational behavior, while RAG provides relevant source content at inference time. A Gradio interface makes these capabilities accessible through an interactive chatbot.
