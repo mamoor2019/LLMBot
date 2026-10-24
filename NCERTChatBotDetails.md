@@ -160,6 +160,8 @@ A Gradio interface accepts a question, class, and subject. The default class is 
 
 **Where to view results:** Run the launch cell and open the Gradio URL shown in its output. Submit a question in the UI to see the answer and citations. Interactive UI responses are not saved automatically. The evaluation cell displays the model-comparison table, and the metrics are written to `artifacts/evaluation_results.csv` under `OUTPUT_ROOT` (`Path.cwd() / "artifacts"`). In Colab, files in the runtime working directory may be temporary unless copied to persistent storage such as Google Drive.
 
+![NCERT Learning AI application interface](NCERTLearningAI.png)
+
 ## 16. Testing and Evaluation
 
 The project defines the following development checks:
